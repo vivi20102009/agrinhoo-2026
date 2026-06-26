@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Cultivo Sustentável - Agrinho 2026</title>
+   <!-- Integração com o arquivo de estilos externo -->
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+   <!-- Cabeçalho Principal -->
+   <header class="main-header">
+       <div class="container">
+           <span class="badge">Concurso Agrinho 2026</span>
+           <h1>Agro Forte, Futuro Sustentável</h1>
+           <p class="subtitle">O equilíbrio perfeito entre a produção de alimentos e a preservação do meio ambiente</p>
+       </div>
+   </header>
+
+
+   <main class="container">
+       <!-- Seção de Introdução e Contexto -->
+       <section class="card intro-section">
+           <h2>Nossa Missão: Cartilha Digital de Boas Práticas</h2>
+           <p>Esta plataforma digital foi desenvolvida para apoiar o pequeno produtor rural. Nosso objetivo é demonstrar que técnicas simples de manejo do solo e gestão da água garantem a produtividade da lavoura sem esgotar os recursos naturais.</p>
+       </section>
+
+
+       <!-- Grade de Conteúdo: Problema, Solução e Sustentabilidade -->
+       <div class="grid">
+           <article class="card">
+               <div class="icon">⚠️</div>
+               <h3>O Problema</h3>
+               <p>A degradação do solo pelo manejo incorreto e o desperdício de água ameaçam o futuro da agricultura familiar. Sem cuidados básicos, a terra perde nutrientes e a água se torna escassa.</p>
+           </article>
+
+
+           <article class="card">
+               <div class="icon">🌱</div>
+               <h3>A Solução</h3>
+               <p>Adotar métodos práticos como a rotação de culturas, cobertura morta e a captação de água da chuva. Essas ações protegem a biodiversidade da terra e reduzem custos operacionais.</p>
+           </article>
+
+
+           <article class="card">
+               <div class="icon">🔄</div>
+               <h3>Sustentabilidade</h3>
+               <p>Produzir em equilíbrio significa garantir o sustento da geração atual sem comprometer a sobrevivência das próximas. O solo vivo retém mais água e carbono, combatendo as mudanças climáticas.</p>
+           </article>
+       </div>
+
+
+       <!-- Seção Interativa (Controlada pelo script.js) -->
+       <section class="card interactive-section">
+           <h2>Checklist da Propriedade Sustentável</h2>
+           <p>Selecione as práticas que você já realiza ou pretende aplicar na sua propriedade para avaliar o seu nível de sustentabilidade:</p>
+          
+           <form id="checklist-form">
+               <label class="checkbox-container">
+                   <input type="checkbox" value="25" class="calc-item">
+                   <span class="checkmark"></span>
+                   <strong>Cobertura Morta:</strong> Protege o solo do sol forte e mantém a umidade da terra.
+               </label>
+              
+               <label class="checkbox-container">
+                   <input type="checkbox" value="25" class="calc-item">
+                   <span class="checkmark"></span>
+                   <strong>Rotação de Culturas:</strong> Alternar as espécies plantadas para evitar o esgotamento dos nutrientes.
+               </label>
+              
+               <label class="checkbox-container">
+                   <input type="checkbox" value="25" class="calc-item">
+                   <span class="checkmark"></span>
+                   <strong>Captação de Água da Chuva:</strong> Uso de cisternas para irrigação de hortas e limpeza geral.
+               </label>
+              
+               <label class="checkbox-container">
+                   <input type="checkbox" value="25" class="calc-item">
+                   <span class="checkmark"></span>
+                   <strong>Irrigação por Gotejamento:</strong> Aplicação de água direto na raiz, evitando o desperdício por evaporação.
+               </label>
+              
+               <button type="button" id="btn-diagnostico" class="btn-primary">Analisar Meu Cultivo</button>
+           </form>
+
+
+           <!-- Área onde o JavaScript vai inserir o resultado -->
+           <div id="resultado-container" class="resultado hidden">
+               <h3 id="resultado-titulo"></h3>
+               <p id="resultado-texto"></p>
+           </div>
+       </section>
+
+
+       <!-- Conclusão -->
+       <section class="card conclusion-section">
+           <h2>Conclusão</h2>
+           <p>Tornar o ecossistema agrícola forte depende de atitudes diárias no campo. O conhecimento técnico compartilhado transforma a realidade do pequeno produtor, provando que a preservação ambiental é o melhor caminho para o crescimento econômico seguro.</p>
+       </section>
+
+
+       <!-- Referências Consultadas -->
+       <section class="references">
+           <h3>Referências e Inspirações</h3>
+           <ul>
+               <li><strong>EMBRAPA</strong> - Guia de Práticas de Conservação do Solo e Água.</li>
+               <li><strong>Instituto Agrinho</strong> - Diretrizes Educacionais do Tema Anual 2026.</li>
+               <li><strong>Manual do Pequeno Produtor</strong> - Técnicas de Irrigação Eficiente e Manejo Agroecológico.</li>
+           </ul>
+       </section>
+   </main>
+
+
+   <!-- Rodapé da Página -->
+   <footer class="main-footer">
+       <p>&copy; 2026 - Projeto Escolar Concurso Agrinho. Desenvolvido com foco no Ensino Médio.</p>
+   </footer>
+
+
+   <!-- Integração com o arquivo de lógica externa -->
+   <script src="script.js"></script>
+</body>
+</html>
+
+
+
